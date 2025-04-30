@@ -2689,14 +2689,18 @@ html {
 }
 
 .nav {
+    /* Keep existing position and z-index if present */
     position: fixed;
     z-index: 64;
-    top: 10px;
-    left: 7px !important;
-    bottom: 0px;
-    height: 98vh;
-    margin-right: 5px;
-    border-radius: 20px;
+    /* Update/Add these properties */
+    left: 10px !important;
+    border-radius: 30px !important;
+    margin-right: 10px !important;
+    height: 98vh !important;
+    margin-top: 10px !important;
+    /* Adjust conflicting properties */
+    top: auto; /* Replace previous top value */
+    bottom: auto; /* Replace previous bottom value */
 }
 
 /* Custom Link Color */
