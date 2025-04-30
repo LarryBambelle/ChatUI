@@ -1,6 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.dark .dark\:bg-gray-900 {
+  background-color: #180f04 !important;
+}
+.dark .dark\:bg-green-600 {
+  background-color: rgb(255 142 5) !important;
+}
+.text-green-500 {
+  color: hsl(33 100% 30% / 1) !important;
+}
 
 /* Custom Variables */
 :root {
@@ -2677,4 +2686,20 @@ html {
 
 .badge-icon {
   transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.nav {
+    position: fixed;
+    z-index: 64;
+    top: 10px;
+    left: 7px !important;
+    bottom: 0px;
+    height: 98vh;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+/* Custom Link Color */
+.prose a, .markdown a {
+  color: #ff8e05 !important; /* Use user's preferred orange */
 }
