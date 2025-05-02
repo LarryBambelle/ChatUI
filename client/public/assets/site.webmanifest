@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Kraken",
+  "short_name": "Kraken",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
