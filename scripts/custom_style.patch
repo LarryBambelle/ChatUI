@@ -1,26 +1,6 @@
 --- a/client/src/style.css
 +++ b/client/src/style.css
-@@ -1,3 +1,13 @@
- @tailwind base;
- @tailwind components;
- @tailwind utilities;
-+/* Custom Orange Theme */
-+.dark .dark\:bg-gray-900 {
-+  background-color: #180f04 !important;
-+}
-+.dark .dark\:bg-green-600 {
-+  background-color: rgb(255 142 5) !important;
-+}
-+.text-green-500 {
-+  color: hsl(33 100% 30% / 1) !important;
-+}
- 
- /* Custom Variables */
- :root {
-@@ -2700,3 +2710,19 @@
-    border-color: rgba(107, 114, 128, 0) !important;
-  }
-  */
+@@ -497,0 +498,16 @@
 +
 +/* Custom Nav Styles */
 +.nav {
