@@ -1,0 +1,30 @@
+--- a/client/src/style.css
++++ b/client/src/style.css
+@@ -497,0 +498,20 @@
++
++/* Custom Nav Styles */
++.nav {
++    /* Keep existing position and z-index if present */
++    position: fixed;
++    z-index: 64;
++    /* Update/Add these properties */
++    left: 10px !important;
++    border-radius: 30px !important;
++    margin-right: 10px !important;
++    height: 98vh !important;
++    margin-top: 10px !important;
++    /* Adjust conflicting properties */
++    top: auto; /* Replace previous top value */
++    bottom: auto; /* Replace previous bottom value */
++}
++
++/* Custom Link Color */
++.prose a, .markdown a {
++  color: #ff8e05 !important; /* Use user's preferred orange */
++}
++
++/* Custom Preview Panel Style */
++div[role=tabpanel][data-state=active][data-orientation=horizontal][aria-labelledby^=radix-][id^=radix-][id$=-content-preview] {
++    background-color: #ffffff !important;
++    scrollbar-gutter: stable !important;
++}
